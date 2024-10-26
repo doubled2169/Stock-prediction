@@ -1,0 +1,16 @@
+stock_prediction_app/
+│
+├── data/
+│   └── stock_data                 # Stock price dataset
+│
+├── models/
+│   ├── stock_price_model.pkl          # Trained model
+│   └── scaler.pkl                     # Scaler for input features
+│
+├── templates/
+│   └── index.html                     # Frontend HTML page for user input
+│
+├── app.py                             # Main Flask application
+├── train_model.py                     # Script to preprocess data, train, and save the model
+├── requirements.txt                   # Dependencies
+└── README.md                          # Project description
